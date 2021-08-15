@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome</title>
+</head>
+<body>
+    <header>
+        <p>Bom dia</p>
+        <h1>Erick Ferrareto.</h1>
+        <div class="saldo">
+            <label for="saldo">Saldo Disponível:</label>
+            <p id="res" class="saldo">R$0.00</p>
+        </div>
+    </header>
+    <main>
+        <p>Funções:</p>
+        <div class="dep">
+            <label for="depositar">Depositar:</label>
+            <input type="number" name="depositar" class="depositar">
+            <input id="concluir" type="button" value="continuar" onclick="depositar()"> 
+        </div>
+        <div class = "trans">
+            <label for="transferencia">Transferir:</label>
+            <input type="number" name="tranferencia" class="transferir">
+            <input id="transf" type="button" value="continuar" onclick="transferir()">
+            
+        </div>
+    </main>
+    <script src="calculando.js"></script>
+</body>
+</html>

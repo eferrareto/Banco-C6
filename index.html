@@ -12,7 +12,7 @@
         <p>Bom dia</p>
         <h1>Erick Ferrareto.</h1>
         <div class="saldo">
-            <label for="saldo">Saldo Disponível:</label>
+            <label for="saldo">Saldo Disponível</label>
             <p id="res" class="saldo">R$0.00</p>
         </div>
     </header>
@@ -27,9 +27,12 @@
             <label for="transferencia">Transferir:</label>
             <input type="number" name="tranferencia" class="transferir">
             <input id="transf" type="button" value="continuar" onclick="transferir()">
-            
         </div>
     </main>
+    <div id="extrato" onclick="extrato()">
+        <P>VER EXTRATO</P>
+    </div>
+    <div id="foi"></div>
     <script src="calculando.js"></script>
 </body>
 </html>

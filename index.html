@@ -8,6 +8,7 @@
     <title>Welcome</title>
 </head>
 <body>
+    <h1 id="inicio">C6 BANK</h1>
     <header>
         <p>Bom dia</p>
         <h1>Erick Ferrareto.</h1>
@@ -20,7 +21,7 @@
         <p>Funções:</p>
         <div class="dep">
             <label for="depositar">Depositar:</label>
-            <input type="number" name="depositar" class="depositar">
+            <input type="number" name="depositar" class="depositar" >
             <input id="concluir" type="button" value="continuar" onclick="depositar()"> 
         </div>
         <div class = "trans">
@@ -29,7 +30,7 @@
             <input id="transf" type="button" value="continuar" onclick="transferir()">
         </div>
     </main>
-    <div id="extrato" onclick="extrato()">
+    <div id="extrato" onmouseout="sair()" onclick="extrato()">
         <P>VER EXTRATO</P>
     </div>
     <div id="foi"></div>
